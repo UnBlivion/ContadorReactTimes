@@ -13,7 +13,7 @@ class PlacarTime extends Component {
 
     render() {
         if(this.props.visitante === "true"){
-            this.texto = "Time visitante";
+            this.texto = "Time da visita";
         }
 
         return (
